@@ -2,6 +2,7 @@
   "roles": [
     "Police",
     "Doctor",
-    "Teacher"
+    "Teacher",
+    "Student"
   ]
 }
