@@ -1,0 +1,23 @@
+{
+  "name": "roblox-discord-classroom-bot",
+  "version": "1.0.0",
+  "description": "Discord bot integrated with Roblox for verification, classroom automation, and stats tracking.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
